@@ -9,7 +9,7 @@
 <div class="container">
   <h2>Books Details</h2>
   <a href="{{ url('Admin/addproductsbyapi') }}"><button class="btn btn-danger">Bulk Create</button></a>
-  <a href="{{ url('Admin/deleteindex') }}"><button class="btn btn-primary">Delete All</button></a>    
+  <!-- <a href="{{ url('Admin/deleteindex') }}"><button class="btn btn-primary">Delete All</button></a>     -->
   <div class="col-md-12 flexrightstyle">
     <div class="row">
     
