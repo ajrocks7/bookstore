@@ -57,7 +57,7 @@
                                                     <i class="fa fa-edit" style="color:#3699ff" aria-hidden="true"></i>
                                                 </a>/
                                               
-                                                <a href="javascript:void(0)" onclick="push_delete(<?php echo $details['_id'];?>)">
+                                                <a href="javascript:void(0)" onclick="push_delete('<?php echo $details['_id'];?>')">
                                                     <i class="fa fa-trash" style="color:red" aria-hidden="true"></i>
                                                 </a>
                                             </td>
