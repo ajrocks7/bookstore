@@ -5,7 +5,7 @@ In this guide, we will be using Elasticcloud to index our products in the cloud.
 ## Prerequisites
 - Import the database from the folder `dbdata`
 - Setup the Laravel project
-- npm and php installed
+- npm and php -v ^8.0.2 installed
 
 ## Steps
 1. Go to the project directory and open a terminal window.
