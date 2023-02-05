@@ -8,7 +8,22 @@ In this guide, we will be using Elasticcloud to index our products in the cloud.
 - npm and php installed
 
 ## Steps
-1. Go to the project directory and open a terminal window. Run `npm run dev` and `php artisan serve` to start the Laravel project. (Note: This is necessary for Laravel 9 as it uses bootstrap UI)
+1. Go to the project directory and open a terminal window.
+
+ Run `composer install` and wait till all packages gets installed.
+
+ Once all packages gets installed,create an .env file and configure your DB Details
+
+ Now Run `php artisan key:generate`
+
+Now open another terminal with the project directory and input command.
+`npm install && npm run dev`
+
+We are using vite so have to install it by the above command.
+
+Once this all done.Start serve your application
+ 
+`php artisan serve` to start the Laravel project.
 
 2. Login to the admin panel by clicking on "Login" on the homepage.
 
