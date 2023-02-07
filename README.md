@@ -1,4 +1,4 @@
-# Indexing Products using Elasticcloud in Laravel
+# Indexing Products using Elasticcloud in Laravel 9
 
 In this guide, we will be using Elasticcloud to index our products in the cloud.
 
